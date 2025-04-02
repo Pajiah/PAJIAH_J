@@ -1,0 +1,41 @@
+body{
+    font-size: 16px;
+}
+.blue{
+    display: flex;
+    justify-content: space-around;
+    color: rgba(189, 118, 11, 0.712);
+}
+#href{
+    display: flex;
+    top: 0px;
+    width: 100%;
+    right: 0px;
+    background-color: azure;
+    align-items: center;
+    justify-content: space-between;
+}
+#got{
+    font-size: 25px;
+}
+h2{
+    font-size: 2rem;
+    color: blue;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav:hover{
+    background-color: green;
+    padding: 5px;
+}
+.fish{
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 10px;
+}
+.fish:hover{
+    transform: scale(1.5);
+}
